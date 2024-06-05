@@ -1,0 +1,136 @@
+.searchBar {
+  background-color: #ffb700;
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+  padding: 0 0.15rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateY(50%);
+  position: relative;
+
+  .searchBox {
+    box-sizing: content-box;
+    background-color: white;
+    height: 3rem;
+    margin: 0.3rem 0.15rem;
+    border-radius: 5px;
+    flex-grow: 1;
+    border: 1.5px solid #ffb700;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      border: 1.5px solid #fc7b03;
+    }
+
+    .searchIcon {
+      color: gray;
+      padding: 0 1rem;
+      font-size: 1.3rem;
+    }
+
+    .searchInput {
+      border: none;
+      outline: none;
+      width: 80%;
+      background-color: white;
+    }
+  }
+
+  .noPointer {
+    cursor: auto;
+  }
+
+  .searchBtn {
+    display: block;
+    margin: 0.3rem 0.15rem;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: rgb(78, 202, 161);
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.1s;
+    &:hover {
+      background-color: #35a47f;
+    }
+  }
+
+  .dateRange {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    box-shadow: 0 0 15px -5px gray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .dateBtn {
+      width: 60%;
+      background-color: white;
+      color: #35a47f;
+      border: 1px solid #35a47f;
+      padding: 0.5rem 0;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+      cursor: pointer;
+    }
+  }
+
+  .conditionContainer {
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    position: absolute;
+    top: 4rem;
+    right: 6rem;
+    box-shadow: 0 0 15px -5px gray;
+
+    .condition {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.3rem;
+
+      .conditionBox {
+        display: flex;
+        border: 1px solid gray;
+        border-radius: 5px;
+        align-items: center;
+
+        .conditionBtn {
+          background-color: white;
+          border: none;
+          font-size: 1.5rem;
+          padding: 1rem;
+          border-radius: 5px;
+          cursor: pointer;
+          &:hover {
+            background-color: #d7faee;
+          }
+        }
+
+        p {
+          width: 2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .complete {
+    width: 100%;
+    background-color: white;
+    color: #35a47f;
+    border: 1px solid #35a47f;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

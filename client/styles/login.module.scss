@@ -1,0 +1,55 @@
+.login {
+  .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+
+  .emailTitle {
+    display: block;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+  }
+
+  input {
+    width: 100%;
+    height: 2.3rem;
+    border-style: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline-color: #35a47f;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+  }
+
+  .loginBtn {
+    width: 100%;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(78, 202, 161);
+    cursor: pointer;
+    transition: all 0.1s;
+    &:hover {
+      background-color: #35a47f;
+    }
+  }
+
+  .otherChoice {
+    font-size: 0.9rem;
+    display: flex;
+
+    hr {
+      border: none;
+      border-top: 1px solid #e7e7e7;
+      margin: auto;
+      flex: 1;
+    }
+    p {
+      padding: 1.5rem 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.announcementContainer {
+  margin-top: 4rem;
+
+  .infoDes {
+    border: 1px solid #d3d3d3;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+
+    .iconBox {
+      color: #fb9004;
+      background-color: #ffe4c4;
+      padding: 0.6rem;
+      font-size: 1.2rem;
+      margin-right: 1.5rem;
+    }
+  }
+
+  .discountContainer {
+    margin: 2rem 0;
+
+    .title {
+      h2 {
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+      p {
+        padding: 0.8rem 0;
+        color: gray;
+      }
+    }
+
+    .infoContainer {
+      display: flex;
+      justify-content: space-between;
+
+      .infoLeft {
+        border: 1px solid #d3d3d3;
+        padding: 1.2rem;
+        border-radius: 7px;
+        display: flex;
+        justify-content: space-between;
+        width: 49.5%;
+
+        .infoText {
+          h3 {
+            padding-top: 0.5rem;
+            font-size: 1.3rem;
+            font-weight: 500;
+          }
+          p {
+            font-size: 0.9rem;
+            padding: 0.8rem 0;
+          }
+          button {
+            background-color: rgb(78, 202, 161);
+            border: none;
+            padding: 0.5rem;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+          }
+        }
+
+        .infoImg {
+          width: 150px;
+
+          img {
+            width: 100%;
+            border-radius: 5px;
+          }
+        }
+      }
+
+      .backgroundImg {
+        border-radius: 7px;
+        width: 49.5%;
+        background-image: url(../public/image/dicount.jpg);
+        background-size: cover;
+        border: none;
+      }
+      .infoRight {
+        height: 100%;
+        padding: 1.2rem;
+        border-radius: 7px;
+        display: flex;
+        background-image: linear-gradient(
+          to right,
+          rgb(0, 0, 0, 0.5),
+          rgb(255, 255, 255, 0.1)
+        );
+
+        .infoText {
+          color: white;
+
+          h3 {
+            padding-top: 0.5rem;
+            font-size: 1.3rem;
+            font-weight: 500;
+          }
+          p {
+            font-size: 0.9rem;
+            padding: 0.8rem 0;
+          }
+          button {
+            background-color: rgb(78, 202, 161);
+            border: none;
+            padding: 0.5rem;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

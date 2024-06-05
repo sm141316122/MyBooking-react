@@ -1,0 +1,195 @@
+.feature {
+  .popular {
+    margin-bottom: 1.5rem;
+
+    .text {
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+      p {
+        padding: 0.8rem 0;
+        color: gray;
+      }
+    }
+
+    .localtionArea {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+
+      .container {
+        height: 300px;
+        width: 49.5%;
+        border-radius: 7px;
+
+        .item {
+          height: 100%;
+          width: 100%;
+          border-radius: 7px;
+          background-image: linear-gradient(
+            to bottom,
+            rgb(0, 0, 0, 0.5),
+            rgb(255, 255, 255, 0.1),
+            rgb(255, 255, 255, 0),
+            rgb(255, 255, 255, 0),
+            rgb(255, 255, 255, 0)
+          );
+          &:hover {
+            background-image: linear-gradient(
+              to bottom,
+              rgb(0, 0, 0, 0.8),
+              rgb(255, 255, 255, 0.1),
+              rgb(255, 255, 255, 0),
+              rgb(255, 255, 255, 0),
+              rgb(255, 255, 255, 0)
+            );
+            border: 1px solid #ffb700;
+          }
+
+          h3 {
+            color: white;
+            font-size: 1.5rem;
+            padding: 1.5rem 1.2rem;
+          }
+        }
+      }
+      .taipei {
+        background-image: url(../public/image/taipei.jpg);
+        background-size: cover;
+      }
+      .taichung {
+        background-image: url(../public/image/taichung.jpg);
+        background-size: cover;
+      }
+    }
+
+    .threeItem {
+      .container {
+        width: 32.7%;
+      }
+      .tainan {
+        background-image: url(../public/image/tainan.jpg);
+        background-size: cover;
+      }
+      .hualien {
+        background-image: url(../public/image/hualien.jpg);
+        background-size: cover;
+      }
+      .kaohsiung {
+        background-image: url(../public/image/kaohsiung.jpg);
+        background-size: cover;
+      }
+    }
+  }
+
+  .category {
+    margin-bottom: 1.5rem;
+
+    .title {
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+      }
+      .cityTitle {
+        margin-bottom: 0;
+      }
+      p {
+        padding: 0.8rem 0;
+        color: gray;
+      }
+    }
+
+    .categoryItem {
+      display: flex;
+      justify-content: start;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding-bottom: 0.5rem;
+
+      .item {
+        flex-shrink: 0;
+        width: 24.25%;
+        margin-right: 1%;
+
+        .img {
+          width: 100%;
+          margin-bottom: 1rem;
+          img {
+            width: 100%;
+            vertical-align: top;
+            border-radius: 7px;
+          }
+        }
+        .roomNumber {
+          padding: 0.5rem 0;
+          color: gray;
+          font-size: 0.9rem;
+        }
+      }
+
+      .cityItem {
+        width: 15.75%;
+        margin-right: 1.1%;
+      }
+
+      .lastItem {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.banner {
+  display: flex;
+  padding: 1.5rem 1.5rem 0.5rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 7px;
+  margin-bottom: 3rem;
+
+  .img {
+    width: 15%;
+    margin-right: 1rem;
+
+    img {
+      width: 100%;
+      vertical-align: top;
+    }
+  }
+
+  .info {
+    width: 50%;
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      padding: 1rem 0;
+    }
+    p {
+      padding: 1rem 0;
+    }
+
+    .buttons {
+      padding: 1rem 0;
+
+      button {
+        border: 1px solid #35a47f;
+        background-color: white;
+        color: #35a47f;
+        padding: 0.5rem;
+        border-radius: 5px;
+        margin-right: 0.5rem;
+        cursor: pointer;
+        transition: all 0.2s;
+        &:hover {
+          background-color: #d7faee;
+        }
+      }
+
+      .register {
+        border: none;
+      }
+    }
+  }
+}

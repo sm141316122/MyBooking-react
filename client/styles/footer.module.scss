@@ -1,0 +1,65 @@
+.footer {
+  .subscribe {
+    background-color: #1e5c48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+
+    h3 {
+      color: white;
+      font-size: 1.5rem;
+    }
+    p {
+      color: rgb(202, 200, 200);
+      padding: 0.5rem 0;
+    }
+
+    .email {
+      width: 100%;
+      padding: 0.5rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      input {
+        width: 40%;
+        height: 45px;
+        border-radius: 5px;
+        border: navajowhite;
+        margin-right: 0.3rem;
+        font-size: 1.3rem;
+        padding-left: 0.5rem;
+      }
+      button {
+        width: 15%;
+        height: 45px;
+        border: none;
+        background-color: #35a47f;
+        border-radius: 5px;
+        color: white;
+        font-size: 1.3rem;
+      }
+    }
+
+    span {
+      color: rgb(202, 200, 200);
+      font-size: 0.8rem;
+    }
+  }
+
+  .postRoom {
+    background-color: #35a47f;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+
+    .container {
+      border: 1px solid white;
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+      border-radius: 3px;
+      color: white;
+    }
+  }
+}

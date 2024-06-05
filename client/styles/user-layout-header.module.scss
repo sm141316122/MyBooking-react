@@ -1,0 +1,55 @@
+.userLayoutHeader {
+  background-color: #35a47f;
+  display: flex;
+  justify-content: center;
+
+  .userLayoutHeaderWrapper {
+    width: 100%;
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 4rem;
+
+    .left {
+      .logo {
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+
+      .navButton {
+        font-size: 1.2rem;
+        margin-left: 0.5rem;
+        display: flex;
+        align-items: center;
+        height: 3rem;
+        padding: 0 1rem;
+        color: white;
+        border-style: none;
+        background-color: #35a47f;
+        border-radius: 3px;
+        transition: all 0.1s;
+        cursor: pointer;
+        &:hover {
+          background-color: rgb(255, 255, 255, 0.2);
+        }
+      }
+
+      .tw {
+        width: 30px;
+        height: 30px;
+        background-image: url(../public/image/Tw.png);
+        background-size: cover;
+        border-radius: 50%;
+      }
+    }
+  }
+}

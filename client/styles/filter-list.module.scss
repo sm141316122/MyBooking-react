@@ -1,0 +1,63 @@
+.aside {
+  width: 30%;
+  padding: 0 0.5rem 0 0.2rem;
+
+  .map {
+    height: 150px;
+    background-color: #e7e7e7;
+    border-radius: 7px;
+    margin-bottom: 0.2rem;
+  }
+
+  .filter {
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+    padding: 0.8rem 0;
+
+    .title {
+      display: block;
+      padding: 0 0.7rem;
+      font-weight: 500;
+    }
+
+    hr {
+      margin: 0.8rem 0;
+      border: none;
+      border-bottom: 1px solid #e7e7e7;
+    }
+
+    .subtitle {
+      padding: 0 0.7rem 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .price {
+      .priceInput {
+        padding: 1rem 1.5rem 0;
+
+        input {
+          width: 100%;
+          margin-top: 1rem;
+        }
+      }
+    }
+
+    .check {
+      padding: 0.3rem 0.7rem;
+      display: flex;
+      align-items: center;
+
+      input {
+        height: 20px;
+        width: 20px;
+        margin: 0;
+      }
+    }
+
+    label {
+      margin-left: 0.5rem;
+      font-size: 0.8rem;
+    }
+  }
+}
