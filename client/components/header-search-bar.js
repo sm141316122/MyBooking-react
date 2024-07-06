@@ -206,6 +206,7 @@ export default function HeaderSearchBar() {
       )}
       <button className={styles.searchBtn}>
         <Link
+          style={{ textDecoration: "none", color: "white" }}
           href={{
             pathname: "/search-result",
             query: {
