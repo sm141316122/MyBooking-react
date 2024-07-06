@@ -1,7 +1,6 @@
 # MyBooking網站 (React 使用Next.js框架) (後端開發中)
 此專案以模仿Booking訂房網站作為練習，前端使用React並以Next.js為框架，以Axios串接後端。後端會使用Express、MondoDB來完成RESTFul API與資料庫，目前後端仍在開發中。
 # DEMO
-
 ### 網站首頁
 
 https://github.com/sm141316122/MyBooking-react/assets/126851722/54ae6a64-37fa-4ec6-b5ac-9dcd3de249ba
@@ -24,8 +23,7 @@ https://github.com/sm141316122/MyBooking-react/assets/126851722/eb16ad6e-565f-4d
 - CSS flex
 - CSS grid
 
-### 套件
-
+# 套件
 - @fortawesome/fontawesome-svg-core
 - @fortawesome/free-regular-svg-icons
 - @fortawesome/free-solid-svg-icons
@@ -37,3 +35,8 @@ https://github.com/sm141316122/MyBooking-react/assets/126851722/eb16ad6e-565f-4d
 - react-date-range
 - react-dom
 - sass
+
+ # 安裝
+ 1. clone 此專案
+ 2. 在 Cient folder npm install
+ 3. 執行 npm run dev
