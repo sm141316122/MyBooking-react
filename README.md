@@ -38,5 +38,5 @@ https://github.com/sm141316122/MyBooking-react/assets/126851722/eb16ad6e-565f-4d
 
  # 安裝
  1. clone 此專案
- 2. 在 Cient folder npm install
+ 2. 在 Client folder 執行 npm install
  3. 執行 npm run dev
